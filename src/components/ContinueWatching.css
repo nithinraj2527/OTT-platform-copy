@@ -1,0 +1,47 @@
+.continue-watching {
+  margin-left: 7%;
+  width: 92vw;
+  height: 160px;
+  box-sizing: border-box;
+  padding: 0;
+  outline: 0;
+  background-color: transparent;
+  /* border: 2px solid red; */
+}
+.title-head {
+  display: flex;
+}
+.explore-all {
+  color: #54b9c5;
+  margin-left: 8px;
+  padding-top: 7px;
+  display: none;
+  font-size: 12px;
+  transition: transform 0.75s;
+  vertical-align: bottom;
+  font-family: nf-icon;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-transform: none;
+  transform: translateZ(0);
+}
+h5:hover .explore-all {
+  display: block;
+}
+.slider {
+  margin: 0;
+  padding: 0 4%;
+  position: relative;
+  touch-action: pan-y;
+  z-index: 2;
+  background-color: transparent;
+}
+.movie-list {
+  display: flex;
+}
+.movie-list > div {
+  width: 10px;
+  height: 100px;
+  border: 2 px solid #54b9c5;
+}
